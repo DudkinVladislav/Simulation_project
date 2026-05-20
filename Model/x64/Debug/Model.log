@@ -1,0 +1,37 @@
+﻿  Model.cpp
+C:\Users\1\source\Simulation_project\Model\Model.cpp(1): warning C4603: MODEL_EXPORTS_EXPORTS: макрос не определен или определение изменилось после использования предкомпилированного заголовка
+C:\Users\1\source\Simulation_project\Model\Model.cpp(1): message : Добавление макроопределения в предкомпилированный заголовок вместо определения его здесь
+C:\Users\1\source\Simulation_project\Model\Model.cpp(2,1): message : использование предварительно скомпилированного заголовка
+C:\Users\1\source\Simulation_project\Metric\Metric.h(18,26): warning C4251: Metric::main_parametrs: class "std::map<std::string,double,std::less<std::string>,std::allocator<std::pair<const std::string,double>>>" должен иметь dll-интерфейс для использования клиентами class "Metric"
+C:\Users\1\source\Simulation_project\Metric\Metric.h(18,5): message : см. объявление "std::map<std::string,double,std::less<std::string>,std::allocator<std::pair<const std::string,double>>>"
+C:\Users\1\source\Simulation_project\Metric\Metric.h(19,26): warning C4251: Metric::parametrs: class "std::map<std::string,double,std::less<std::string>,std::allocator<std::pair<const std::string,double>>>" должен иметь dll-интерфейс для использования клиентами class "Metric"
+C:\Users\1\source\Simulation_project\Metric\Metric.h(18,5): message : см. объявление "std::map<std::string,double,std::less<std::string>,std::allocator<std::pair<const std::string,double>>>"
+C:\Users\1\source\Simulation_project\Metric\Metric.h(20,26): warning C4251: Metric::fixed_main_parametrs: class "std::map<std::string,double,std::less<std::string>,std::allocator<std::pair<const std::string,double>>>" должен иметь dll-интерфейс для использования клиентами class "Metric"
+C:\Users\1\source\Simulation_project\Metric\Metric.h(18,5): message : см. объявление "std::map<std::string,double,std::less<std::string>,std::allocator<std::pair<const std::string,double>>>"
+C:\Users\1\source\Simulation_project\Metric\Metric.h(22,12): warning C4251: Metric::name: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "Metric"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xstring(5300,29): message : см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Users\1\source\Simulation_project\Metric\Metric.h(23,12): warning C4251: Metric::type: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "Metric"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xstring(5300,29): message : см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Users\1\source\Simulation_project\Model\Model.h(19,12): warning C4251: Model::name: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "Model"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xstring(5300,29): message : см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Users\1\source\Simulation_project\Model\Model.h(20,12): warning C4251: Model::modeling_class: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "Model"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xstring(5300,29): message : см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Users\1\source\Simulation_project\Model\Model.h(21,12): warning C4251: Model::next_model_name: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "Model"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xstring(5300,29): message : см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Users\1\source\Simulation_project\Model\Model.h(22,26): warning C4251: Model::components: class "std::map<std::string,Model *,std::less<std::string>,std::allocator<std::pair<const std::string,Model *>>>" должен иметь dll-интерфейс для использования клиентами class "Model"
+C:\Users\1\source\Simulation_project\Model\Model.h(22,5): message : см. объявление "std::map<std::string,Model *,std::less<std::string>,std::allocator<std::pair<const std::string,Model *>>>"
+C:\Users\1\source\Simulation_project\Model\Model.h(23,22): warning C4251: Model::metrics: class "std::vector<Metric *,std::allocator<Metric *>>" должен иметь dll-интерфейс для использования клиентами class "Model"
+C:\Users\1\source\Simulation_project\Model\Model.h(23,5): message : см. объявление "std::vector<Metric *,std::allocator<Metric *>>"
+C:\Users\1\source\Simulation_project\Model\Model.h(24,26): warning C4251: Model::parametrs: class "std::map<std::string,double,std::less<std::string>,std::allocator<std::pair<const std::string,double>>>" должен иметь dll-интерфейс для использования клиентами class "Model"
+C:\Users\1\source\Simulation_project\Metric\Metric.h(18,5): message : см. объявление "std::map<std::string,double,std::less<std::string>,std::allocator<std::pair<const std::string,double>>>"
+C:\Users\1\source\Simulation_project\Model\Model.h(25,34): warning C4251: Model::parallel_parametrs: class "std::map<std::string,std::vector<double,std::allocator<double>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<double,std::allocator<double>>>>>" должен иметь dll-интерфейс для использования клиентами class "Model"
+C:\Users\1\source\Simulation_project\Model\Model.h(25,5): message : см. объявление "std::map<std::string,std::vector<double,std::allocator<double>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<double,std::allocator<double>>>>>"
+C:\Users\1\source\Simulation_project\Model\Model.h(26,26): warning C4251: Model::components_models_adresses: class "std::map<std::string,std::string,std::less<std::string>,std::allocator<std::pair<const std::string,std::string>>>" должен иметь dll-интерфейс для использования клиентами class "Model"
+C:\Users\1\source\Simulation_project\Model\Model.h(26,5): message : см. объявление "std::map<std::string,std::string,std::less<std::string>,std::allocator<std::pair<const std::string,std::string>>>"
+C:\Users\1\source\Simulation_project\Model\Model.cpp(37,29): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\1\source\Simulation_project\Model\Model.cpp(49,26): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\1\source\Simulation_project\Model\Model.cpp(57,28): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\1\source\Simulation_project\Model\Model.cpp(93,37): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\1\source\Simulation_project\Model\Model.cpp(97,30): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     Создается библиотека C:\Users\1\source\Simulation_project\x64\Debug\Model.lib и объект C:\Users\1\source\Simulation_project\x64\Debug\Model.exp
+  Model.vcxproj -> C:\Users\1\source\Simulation_project\x64\Debug\Model.dll
