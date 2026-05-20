@@ -1,0 +1,24 @@
+﻿  pch.cpp
+  dllmain.cpp
+  Metric.cpp
+C:\Users\1\source\Simulation_project\Metric\Metric.cpp(1,1): warning C4005: METRIC_EXPORTS: изменение макроопределения
+C:\Users\1\source\Simulation_project\Metric\Metric.cpp(1,1): message : "METRIC_EXPORTS" ранее объявлен в командной строке
+C:\Users\1\source\Simulation_project\Metric\Metric.cpp(1): warning C4603: METRIC_EXPORTS: макрос не определен или определение изменилось после использования предкомпилированного заголовка
+C:\Users\1\source\Simulation_project\Metric\Metric.cpp(1): message : Добавление макроопределения в предкомпилированный заголовок вместо определения его здесь
+C:\Users\1\source\Simulation_project\Metric\Metric.cpp(2,1): message : использование предварительно скомпилированного заголовка
+C:\Users\1\source\Simulation_project\Metric\Metric.h(18,26): warning C4251: Metric::main_parametrs: class "std::map<std::string,double,std::less<std::string>,std::allocator<std::pair<const std::string,double>>>" должен иметь dll-интерфейс для использования клиентами class "Metric"
+C:\Users\1\source\Simulation_project\Metric\Metric.h(18,5): message : см. объявление "std::map<std::string,double,std::less<std::string>,std::allocator<std::pair<const std::string,double>>>"
+C:\Users\1\source\Simulation_project\Metric\Metric.h(19,26): warning C4251: Metric::parametrs: class "std::map<std::string,double,std::less<std::string>,std::allocator<std::pair<const std::string,double>>>" должен иметь dll-интерфейс для использования клиентами class "Metric"
+C:\Users\1\source\Simulation_project\Metric\Metric.h(18,5): message : см. объявление "std::map<std::string,double,std::less<std::string>,std::allocator<std::pair<const std::string,double>>>"
+C:\Users\1\source\Simulation_project\Metric\Metric.h(20,26): warning C4251: Metric::fixed_main_parametrs: class "std::map<std::string,double,std::less<std::string>,std::allocator<std::pair<const std::string,double>>>" должен иметь dll-интерфейс для использования клиентами class "Metric"
+C:\Users\1\source\Simulation_project\Metric\Metric.h(18,5): message : см. объявление "std::map<std::string,double,std::less<std::string>,std::allocator<std::pair<const std::string,double>>>"
+C:\Users\1\source\Simulation_project\Metric\Metric.h(22,12): warning C4251: Metric::name: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "Metric"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xstring(5300,29): message : см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Users\1\source\Simulation_project\Metric\Metric.h(23,12): warning C4251: Metric::type: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "Metric"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xstring(5300,29): message : см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Users\1\source\Simulation_project\Metric\Metric.cpp(52,39): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\1\source\Simulation_project\Metric\Metric.cpp(56,33): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\1\source\Simulation_project\Metric\Metric.cpp(60,28): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  Создание кода...
+     Создается библиотека C:\Users\1\source\Simulation_project\x64\Debug\Metric.lib и объект C:\Users\1\source\Simulation_project\x64\Debug\Metric.exp
+  Metric.vcxproj -> C:\Users\1\source\Simulation_project\x64\Debug\Metric.dll
